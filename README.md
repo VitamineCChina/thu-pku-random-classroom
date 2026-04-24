@@ -1,4 +1,4 @@
-# TClassroomInfo - 清华/北大空闲教室查询工具
+# THU-PKU-Random-Classroom - 清华/北大空闲教室查询工具
 
 随机选择清华大学或北京大学的空闲教室，支持命令行交互和缓存机制。
 
@@ -101,7 +101,7 @@ print(result["selected"])
 ## 项目结构
 
 ```
-release/
+./
 ├── sso_login.py                 # SSO 登录模块
 │   ├── SSOLogin                  #   通用 SSO 登录类
 │   └── TsinghuaSSOLogin          #   清华专用登录类
